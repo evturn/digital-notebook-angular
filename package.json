@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/evturn/digital-notebook-angular/issues"
   },
-  "homepage": "https://github.com/evturn/digital-notebook-angular"
+  "homepage": "https://github.com/evturn/digital-notebook-angular",
+  "dependencies": {
+    "angular": "^1.3.13"
+  }
 }
