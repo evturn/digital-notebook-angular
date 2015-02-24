@@ -3,20 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Digital Notebook</title>
+	<script src="js/lib/angular.min.js"></script>
+	<script src='Guidebook.js'></script>
+  <script src='controller/ChaptersController.js'></script>
+  <script src='controller/NotesController.js'></script>
+  <script src='model/NoteModel.js'></script>
+  <script src='model/ChapterModel.js'></script>
+  <script src='view/directives/NoteList.js'></script>
 	<link rel="stylesheet" href="css/lib/bootstrap.css">
 	<link rel='stylesheet' href='view/styles.css'>
 </head>
 <body>
 	<h1>Digital Notebook</h1>
 	<div ng-view>
-
+		
 	</div>
 	
-	<script src="js/lib/angular.js"></script>
-	<script src='Guidebook.js'></script>
-  <script src='controller/ChaptersController.js'></script>
-  <script src='controller/NotesController.js'></script>
-  <script src='model/NoteModel.js'></script>
-  <script src='model/ChapterModel.js'></script>
+	
 </body>
 </html>

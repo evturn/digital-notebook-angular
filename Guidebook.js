@@ -18,4 +18,6 @@ var guidebookConfig = function($routeProvider) {
 		})
 };
 
-var Guidebook = angular.module('Guidebook', []).config(guidebookConfig);
+var Guidebook = angular.module('Guidebook', [])
+.config(guidebookConfig);
+
